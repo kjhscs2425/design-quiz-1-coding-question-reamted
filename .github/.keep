@@ -1,0 +1,18 @@
+import turtle
+
+#right a function that draws a house that can be scaled 
+
+
+def house(size):
+    for i in range(6):
+        turtle.forward(size)
+        turtle.right(90)
+    turtle.left(45)
+    turtle.forward(size/2)
+    turtle.right(90)
+    turtle.forward(size/2)
+
+
+house(100)
+
+turtle.exitonclick()
